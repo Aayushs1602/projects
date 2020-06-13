@@ -1,0 +1,6 @@
+n = int(input())
+lis1 = list(map(int,input().split()))
+sum = 1
+for i in lis1:
+    sum *= i
+print(sum%(10**9+7))
